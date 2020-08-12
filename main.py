@@ -167,7 +167,7 @@ logger.info(args)
 while True:
 	try:
 		prompt = input('>>> ')
-		print(generate(prompt))
+		print(generate(prompt), end='\n\n')
 	except KeyboardInterrupt:
 		print('\nQuitting')
 		break
